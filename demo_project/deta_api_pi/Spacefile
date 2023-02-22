@@ -1,0 +1,7 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 1
+micros:
+  - name: deta_api_pi
+    src: .
+    engine: python3.9
+    primary: true
